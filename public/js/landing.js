@@ -6,7 +6,7 @@ const mic = document.querySelector("#mic");
 const cam = document.querySelector("#webcam");
 
 let micAllowed = 1;
-let camAllowed = 0;
+let camAllowed = 1;
 
 let mediaConstraints = { video: true, audio: true };
 
